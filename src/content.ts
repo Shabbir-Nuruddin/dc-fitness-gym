@@ -1,5 +1,4 @@
-import "@fontsource/mukta/600.css";
-import "@fontsource/mukta/800.css";
+import "@fontsource/outfit/800.css";
 import type { Site } from "./lib";
 
 export const SITE: Site = {
@@ -18,20 +17,22 @@ export const SITE: Site = {
   "lon": 77.0725784,
   "hours": [],
   "theme": {
-    "dark": false,
-    "bg": "#ffffff",
-    "bg2": "#f4f4f2",
-    "panel": "#ffffff",
-    "ink": "#111111",
-    "ink2": "#4b4b4b",
-    "ink3": "#858585",
-    "line": "#e4e4e0",
-    "onAccent": "#ffffff",
-    "display": "Mukta",
+    "dark": true,
+    "bg": "#070b12",
+    "bg2": "#10141a",
+    "panel": "#161a20",
+    "ink": "#eff0f0",
+    "ink2": "#bcbebf",
+    "ink3": "#808285",
+    "line": "#22262c",
+    "accent": "#4aa8ff",
+    "onAccent": "#0c1b29",
+    "display": "Outfit",
     "weight": 800,
-    "upper": false,
-    "accent": "#0369a1"
+    "upper": false
   },
+  "scene": "kettlebell",
+  "align": "left",
   "hero": {
     "title": [
       {
@@ -47,13 +48,7 @@ export const SITE: Site = {
       "en": "4.8 on Google from 336 reviews. Members write about owner and trainer Deepak, an air-conditioned, spacious floor and new equipment in Sector 52.",
       "hi": "गूगल पर 336 रिव्यू से 4.8। मेंबर मालिक और ट्रेनर दीपक, एसी वाले खुले फ़्लोर और सेक्टर 52 में नए उपकरणों के बारे में लिखते हैं।"
     },
-    "fallback": "/img/p5.jpg",
-    "slides": [
-      "/img/p5.jpg",
-      "/img/p1.jpg",
-      "/img/p7.jpg",
-      "/img/p4.jpg"
-    ]
+    "fallback": "/img/p5.jpg"
   },
   "marquee": [
     "Strength",
@@ -308,5 +303,40 @@ export const SITE: Site = {
       "en": "Hi DC Fitness Gym, I'd like to enquire:",
       "hi": "नमस्ते DC फ़िटनेस जिम, मुझे जानकारी चाहिए:"
     }
-  }
+  },
+  "story": [
+    {
+      "kicker": {
+        "en": "Space",
+        "hi": "जगह"
+      },
+      "title": {
+        "en": "One of the biggest in Sector 52.",
+        "hi": "सेक्टर 52 के सबसे बड़े जिमों में से एक।"
+      },
+      "quote": "Dc Fitness Gym is one of the biggest gyms in sector 52."
+    },
+    {
+      "kicker": {
+        "en": "No waiting",
+        "hi": "इंतज़ार नहीं"
+      },
+      "title": {
+        "en": "No waiting for your turn.",
+        "hi": "अपनी बारी का इंतज़ार नहीं।"
+      },
+      "quote": "Also there is no instance where i have to wait for equipment and my turn."
+    },
+    {
+      "kicker": {
+        "en": "Equipment",
+        "hi": "मशीनें"
+      },
+      "title": {
+        "en": "Brand-new barbells and weights.",
+        "hi": "नए बारबेल और वज़न।"
+      },
+      "quote": "All the equipments, free weights and barbell are brand new and of excellent quality."
+    }
+  ]
 };
